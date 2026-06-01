@@ -12,6 +12,7 @@
 ### 📂 目录结构指针 (Directory Roadmap)
 *   `./spec.md` ──> **【当前任务书】** 存放当前阶段问题描述与边界要求。
 *   `./docs/backend-guide.md` ──> **【后端技术规范】** 聚合支付后端核心技术规范（JDK 21 / Spring Boot 3）。
+*   `./docs/frontend-guide.md` ──> **【前端技术规范】** 聚合支付前端核心技术规范（Vue 3 / TS / Vite）。
 *   `./.agent/history/` ──> **【审计历史】** 存放按日期分割的 `prompt.md` 和 `task.md`。
 *   `./yudao-cloud/yudao-module-unionpay/` ──> **【后端边界】** 核心代码完全收拢在此新模块，严禁污染旧 pay 模块。
 *   `./yudao-ui-admin-vue3/src/views/unionpay/` ──> **【前端边界】** 所有管理前端视图完全收拢在此新目录。
